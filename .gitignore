@@ -1,0 +1,11 @@
+# log files
+*.log
+
+# Annoying Office temp files
+*~$*
+
+# VSCode files
+*.vscode
+
+# Results
+results/*

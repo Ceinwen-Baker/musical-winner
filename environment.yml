@@ -1,0 +1,24 @@
+name: spotcounting_env
+channels:
+  - conda-forge
+  - https://conda.anaconda.org/conda-forge/win-64
+  - https://conda.anaconda.org/conda-forge/win-32
+  - defaults
+dependencies:
+  - sdt-python
+  - ipykernel
+  - napari
+  - seaborn
+  - loguru
+  - autopep8
+  - openpyxl
+  - trackpy
+  - scikit-posthocs
+  - pywin32
+  - altair
+  - vega_datasets
+  - cvxpy
+  - pyqtgraph
+  - pip
+  - pip:
+      - git+https://github.com/dezeraecox/smma.git
